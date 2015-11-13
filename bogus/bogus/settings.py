@@ -44,6 +44,7 @@ INSTALLED_APPS = (
     'acacia',
     'acacia.data',
     'acacia.data.knmi',
+    'bogus'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -79,7 +80,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'nl-nl'
 
-TIME_ZONE = 'Europe/Amsterdam'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
